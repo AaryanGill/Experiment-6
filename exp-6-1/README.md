@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# ============================================================
+# 💻 Experiment – 6.1
+# Handling Forms Using Controlled Components
+# ============================================================
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Aim
+To create and handle forms in a frontend application using controlled components in React.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Software Requirements
+- Node.js
+- React
+- VS Code
+- Web Browser
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Theory
+Controlled components are React components in which form data is handled by the component’s state. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+In controlled components:
+- Input elements are controlled using `useState`
+- React state becomes the single source of truth
+- User input is managed through event handlers
+- It provides complete control over form behavior
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Procedure
+1. Create a React application.
+2. Create a form component.
+3. Use `useState` to store input values.
+4. Handle input change events.
+5. Submit the form using an event handler.
+6. Display submitted data using alert.
+7. Reset the form after successful submission.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Result
+The form was successfully created using controlled components in React and handled using state management.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📜 License
 
-### `npm run eject`
+This project is licensed under the **MIT License**.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+You are free to:
+- Use
+- Modify
+- Distribute
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+For educational purposes.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 👨‍💻 Author
 
-## Learn More
+**Aaryan Gill**  
+B.Tech CSE (AI & ML)  
+Chandigarh University  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## ⭐ Acknowledgment
 
-### Code Splitting
+This project was developed as part of the Web Development Lab coursework.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+### Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<img width="441" height="617" alt="image" src="https://github.com/user-attachments/assets/a3d842a4-92a2-450a-83d0-cb201dddd830" />
 
-### Making a Progressive Web App
+<img width="1304" height="407" alt="image" src="https://github.com/user-attachments/assets/83a6fc7a-ec4b-4ebb-a6ee-1d93890a6bd7" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
