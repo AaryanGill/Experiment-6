@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+# ============================================================
+# 💻 Experiment – 6.2
+# Client-Side Form Validation
+# ============================================================
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Aim
+To validate form inputs on the client side before submission.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Software Requirements
+- Node.js
+- React
+- VS Code
+- Web Browser
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Theory
+Client-side validation ensures correctness of user data and provides immediate feedback without server interaction.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+It helps to:
+- Prevent invalid data submission
+- Improve user experience
+- Reduce server load
+- Display error messages instantly
 
-### `npm test`
+Validation is implemented using:
+- Conditional checks
+- Regular Expressions (Regex)
+- Error state management
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Procedure
+1. Create form inputs (Email and Password).
+2. Define validation conditions:
+   - Email must contain '@' and valid domain (.com, .in, etc.)
+   - Password must:
+     - Start with a capital letter
+     - Contain at least one number
+     - Contain at least one special character
+     - Have minimum 5 characters
+3. Display error messages below input fields.
+4. Allow submission only if all inputs are valid.
+5. Reset the form after successful validation.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Result
+The form successfully validates user inputs on the client side and prevents invalid data submission.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📜 License
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project is licensed under the **MIT License**.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You are free to:
+- Use
+- Modify
+- Distribute
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+For educational purposes.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 👨‍💻 Author
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Aaryan Gill**  
+B.Tech CSE (AI & ML)  
+Chandigarh University  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## ⭐ Acknowledgment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project was developed as part of the Web Development Lab coursework.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Screenshots
 
-### Making a Progressive Web App
+<img width="1365" height="659" alt="image" src="https://github.com/user-attachments/assets/d2c4c180-1804-49ed-8ee3-1914e20e2503" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+<img width="1366" height="691" alt="image" src="https://github.com/user-attachments/assets/10a6e766-cbc7-4e78-9b31-a0fb0a3f125a" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+<img width="1362" height="686" alt="image" src="https://github.com/user-attachments/assets/534e078c-4cab-42a0-81a4-c98da6362f3b" />
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
