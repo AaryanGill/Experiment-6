@@ -70,7 +70,7 @@ This project was developed as part of the Web Development Lab coursework.
 
 ---
 
-### Screenshots
+## Screenshots
 
 <img width="441" height="617" alt="image" src="https://github.com/user-attachments/assets/a3d842a4-92a2-450a-83d0-cb201dddd830" />
 
