@@ -74,6 +74,8 @@ This project was developed as part of the Web Development Lab coursework.
 
 <img width="441" height="617" alt="image" src="https://github.com/user-attachments/assets/a3d842a4-92a2-450a-83d0-cb201dddd830" />
 
+---
+
 <img width="1304" height="407" alt="image" src="https://github.com/user-attachments/assets/83a6fc7a-ec4b-4ebb-a6ee-1d93890a6bd7" />
 
 ---
