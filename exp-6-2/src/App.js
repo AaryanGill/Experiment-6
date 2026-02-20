@@ -10,11 +10,12 @@ function App() {
   const validate = () => {
     let newErrors = {};
 
-    // Email Validation
-    const emailRegex = /^[^\s@]+@[^\s@]+\.(com|in|org|net|edu)$/;
+    // Strict Email Validation
+    const emailRegex = /^[a-zA-Z0-9]+@[a-zA-Z0-9-]+\.(com|in|org|net|edu)$/;
+
     if (!emailRegex.test(email)) {
       newErrors.email =
-        "Enter valid email with @ and proper domain (.com, .in, etc)";
+        "Enter valid email (example: name@gmail.com)";
     }
 
     // Password Validation
@@ -35,7 +36,11 @@ function App() {
     e.preventDefault();
 
     if (validate()) {
-      alert("Login Successful ✅");
+      alert(
+        `Email: ${email}\nPassword: ${password}`
+      );
+
+      // Reset form
       setEmail("");
       setPassword("");
       setErrors({});
